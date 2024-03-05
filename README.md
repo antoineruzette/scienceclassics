@@ -1,5 +1,6 @@
 <img src="images/scienceclassics_logo2_wide.png" alt="Image" style="width: 850px; height: auto;">
-A collection of classic scientific papers covering biology, engineering, computer science, physics and, especially, their intersections.
+
+# A collection of classic scientific papers covering biology, engineering, computer science, physics and, especially, their intersections.
 
 I read a lot of papers about new and old sciences, spanning biology, engineering, computer science and physics. When it comes to keeping up with the current publications, I enjoy reading the old ones, reading about the years of incredible science that lead to this very moment. Which papers contributed to the development of an entire field? To new ways of thinking? To paradigm shift? 
 
