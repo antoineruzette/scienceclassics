@@ -20,6 +20,6 @@ jobs:
 
     - name: Execute Python Script
       run: |
-        python update_readme.py
+        python source/update_readme.py
       env:
         PYTHONPATH: './papers/' # Set the PYTHONPATH if necessary
