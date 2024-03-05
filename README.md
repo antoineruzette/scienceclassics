@@ -1,4 +1,4 @@
-<img src="images/scienceclassics_logo2_wide.png" alt="Image" style="width: 850px; height: auto;">
+<img src="images/scienceclassics_logo2_wide.png" alt="Image" style="width: 900px; height: auto;">
 
 # A collection of classic scientific papers covering biology, engineering and physics.
 
