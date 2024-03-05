@@ -1,3 +1,5 @@
+<img src="images/scienceclassics_logo2.png" alt="Image" style="width: 200px; height: auto;">
+
 # _science classics_
 A collection of classic scientific papers covering biology, engineering, computer science, physics and, especially, their intersections.
 
