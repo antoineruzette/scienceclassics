@@ -78,7 +78,7 @@ existing_papers = readme_content[double_dash_index:]
 
 # Generate the updated list of papers
 updated_readme = introduction + "\n\n"
-for title, author, journal, year, volume, number, pages, _, _ in sorted_papers:
+for title, author, journal, volume, number, pages, year, _, _ in sorted_papers:
     apa_citation = convert_to_apa_citation(author,
                                            title,
                                            journal,
