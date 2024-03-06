@@ -48,11 +48,24 @@ def extract_papers_from_bibtex(bibtex_file):
 
 
 def convert_to_apa_citation(author, title, journal, year, volume, number, pages):
-    citation = (f"{author.strip()} ({year.strip()}). "
-                f"{title.strip()}. "
-                f"_{journal.strip()}_, "
-                f"{volume.strip()}({number.strip()}), "
-                f"{pages.strip()}.")
+    citation_parts = []
+    
+    if author:
+        citation_parts.append(f"{author.strip()}.")
+    if year:
+        citation_parts.append(f"({year.strip()}).")
+    if title:
+        citation_parts.append(f"{title.strip()}.")
+    if journal:
+        citation_parts.append(f"_{journal.strip()}_,")
+    if volume:
+        citation_parts.append(f"{volume.strip()},")
+    if number:
+        citation_parts.append(f"({number.strip()}),")
+    if pages:
+        citation_parts.append(f"{pages.strip()}.")
+    
+    citation = " ".join(citation_parts)
     return citation
 
 
