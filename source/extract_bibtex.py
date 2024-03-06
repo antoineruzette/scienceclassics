@@ -65,6 +65,8 @@ def convert_to_apa_citation(author, title, journal, year, volume, number, pages)
     if pages:
         citation_parts.append(f"{pages.strip()}.")
     
+    citation_parts.append("\n")
+    
     citation = " ".join(citation_parts)
     return citation
 
